@@ -1,1 +1,15 @@
-hello world
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<?php phpinfo();?>
+	<ul>
+		<li>
+			<a href="./basic_authentication/">Basic authentication</a>
+		</li>
+	</ul>
+</body>
+</html>
