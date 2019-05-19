@@ -3,9 +3,6 @@
 	$usr = @$_SERVER['PHP_AUTH_USER'];
 	$pass = @$_SERVER['PHP_AUTH_PW'];
 
-	var_dump($usr);
-	var_dump($pass);
-
 	if(! $usr || ! $pass){
 		header('HTTP/1.1 401 Unauthorized');
 		header('WWW-Authenticate: Basic realm="Basic Authentication Sample"');
