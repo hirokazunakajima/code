@@ -5,7 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-	<?php phpinfo();?>
 	<ul>
 		<li>
 			<a href="./basic_authentication/">Basic authentication</a>
