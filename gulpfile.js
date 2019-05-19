@@ -3,14 +3,14 @@ var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 
 // Static Server + watching scss/html files
-gulp.task('serve', function() {
+gulp.task('sync-browser', function() {
 
     browserSync.init({
-        proxy: "hirokazunakajima.local/code/"
+    	port:3000,
+        proxy: "hirokazunakajima.local/code/",
+        files:["**/*.php"]
     });
-
-    gulp.watch("./../*.php").on('change', browserSync.reload);
 });
 
 
-gulp.task('watch', ['serve']);
+gulp.task('watch', ['sync-browser']);

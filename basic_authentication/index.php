@@ -1,14 +1,14 @@
 <?php
 
-	$usr = @$_SERVER['PHP_AUTH_USER'];
-	$pass = @$_SERVER['PHP_AUTH_PW'];
+	// $usr = @$_SERVER['PHP_AUTH_USER'];
+	// $pass = @$_SERVER['PHP_AUTH_PW'];
 
-	if(! $usr || ! $pass){
-		header('HTTP/1.1 401 Unauthorized');
-		header('WWW-Authenticate: Basic realm="Basic Authentication Sample"');
-		echo "ユーザー名とパスワードが必要です";
-		exit;
-	}
+	// if(! $usr || ! $pass){
+	// 	header('HTTP/1.1 401 Unauthorized');
+	// 	header('WWW-Authenticate: Basic realm="Basic Authentication Sample"');
+	// 	echo "ユーザー名とパスワードが必要です";
+	// 	exit;
+	// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
