@@ -8,7 +8,8 @@ gulp.task('sync-browser', function() {
     browserSync.init({
     	port:3000,
         proxy: "hirokazunakajima.local/code/",
-        files:["**/*.php"]
+        files:["**/*.php"],
+        open:"external",
     });
 });
 
