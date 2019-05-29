@@ -1,3 +1,21 @@
+<?php
+/*
+	google reCapture v3
+	https://www.google.com/recaptcha/intro/v3.html
+
+	site key
+	6Lej6qUUAAAAAJWWebpJ7RLnvDW69p96mu-AEiCz
+
+	seacret key
+	6Lej6qUUAAAAAIQNivqKNljy3rAWK3XCTDEBQqdl
+
+	domain
+	hirokazunakajima.local
+	hirokazunakajima.com
+*/
+
+
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
