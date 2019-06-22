@@ -9,7 +9,7 @@
 	seacret key
 	6Lej6qUUAAAAAIQNivqKNljy3rAWK3XCTDEBQqdl
 
-	domain
+	registered domain on google recapture setting
 	hirokazunakajima.local
 	hirokazunakajima.com
 */
