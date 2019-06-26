@@ -8,7 +8,7 @@ var Countdown = {
 	sec:null,
 	init:function(){
 		var _self = this;
-		_self.timeToCountDown = new Date("2020/01/01 00:00:00");
+		_self.timeToCountDown = new Date("2022/01/01 00:00:00");
 		_self.day = document.getElementById("day");
 		_self.hour = document.getElementById("hour");
 		_self.min = document.getElementById("min");
