@@ -37,7 +37,7 @@
 	<script type="text/javascript">
 	  var successCallback = function(response){
 	  	if(response != ""){
-			$(":[type=submit").removeAttr("disabled");
+			$(":disabled").removeAttr("disabled");
 		}
 	  }
 
